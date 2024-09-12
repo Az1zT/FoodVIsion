@@ -49,7 +49,7 @@ file = st.file_uploader(label="Upload an image of food.",
                         type=["jpg", "jpeg", "png"])
 
 
-model = tf.keras.models.load_model("./models/finalmodel.hdf5")
+model = tf.keras.models.load_model("./main/models/finalmodel.hdf5")
 
 
 st.sidebar.markdown("Created by **Aziz Travadi**")
